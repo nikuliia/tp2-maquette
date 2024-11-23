@@ -1,3 +1,4 @@
+/* Common start */
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.jce {
+    justify-content: end;
+}
+
 .jca {
     justify-content: space-around;
 }
@@ -29,6 +34,11 @@ body {
 
 .m-auto {
     margin: auto;
+}
+
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .vstack {
@@ -48,49 +58,51 @@ a {
 }
 
 .container-small {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
 }
 
-.logo {
-    border: 1px solid black;
-    padding: 15px 25px;
-    color: black;
-}
+/* Common end */
+
+/* Header start */
 
 .nav {
     display: flex;
     list-style: none;
+}
+
+.main-nav .link {
+    padding: 15px;
+}
+
+.main-nav .link:hover {
+    background-color: #a338f4;
+    color: white;
+    cursor: default;
+}
+
+/* Header end */
+
+/* Welcome start */
+.welcome {
+    background-color: #5d23c0;
     gap: 20px;
-    padding: 15px 20px;
-    margin-left: 100px;
 }
 
-.section1 {
-background-color: blueviolet;
-}
-
-.container1, .container2 {
-    justify-content: center;
-    margin-top: 25px;
-}
-
-.container2 {
-    margin-left: 25px;
-}
-
-img {
-    padding: 25px 0;
-    width: 300px;
+.welcome .image {
+    max-width: 60%;
     height: auto;
+    margin: 40px 0;
+    box-shadow: 0 0 5px #a24aff;
 }
 
 .text-wrap1 {
-    display: inline-block;
+    display: inline;
     color: white;
     border: none;
-    background-color: darkslategray;
-    padding: 10px;
+    background: #003668;
+    padding: 8px;
+    line-height: 1.8;
 }
 
 .text-wrap2 {
@@ -102,25 +114,92 @@ img {
 
 .orange-button {
     color: white;
-    background-color: crimson;
+    background-color: #f93f60;
     padding: 12px;
     border-radius: 7px;
+    display: inline-block;
 }
 
-.section2 {
+/* Welcome end */
+
+/* Stats start */
+
+.stats {
     text-align: center;
     margin: 70px auto;
 }
 
-.stats {
-    margin: 15px auto;
+.stats .stats-title, .stats .stats-bottom-title {
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.stat-item {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 25px;
+.stats .stats-title {
+    margin-bottom: 24px;
 }
+
+.stats .stats-content {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.stats .stats-bottom-title {
+    margin-bottom: 60px;
+}
+
+.stats .slogan-text {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #1e8bff, #1e6955ff 45%, #a83af5 50%, #c03ada 75%);
+    color: transparent;
+    background-clip: text;
+}
+
+.stats .stats-items {
+    margin: 15px auto 40px;
+    text-align: center;
+}
+
+.stats .stats-items .stat-item:nth-child(1) {
+    color: #1886fd;
+}
+
+.stats .stats-items .stat-item:nth-child(2) {
+    color: #6c57fe;
+}
+
+.stats .stats-items .stat-item:nth-child(3) {
+    color: #a53cf3;
+}
+
+.stats .stats-items .stat-item:nth-child(4) {
+    color: #be36d9;
+}
+
+.stats .stats-items .stat-item .number {
+    font-size: 2.5rem;
+}
+.stats .stats-items .stat-item p {
+    color: #000;
+}
+
+/* Stats end */
+
+.logo {
+    border: 1px solid black;
+    padding: 15px 25px;
+    color: black;
+}
+
+.container1, .container2 {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container2 {
+    margin-left: 25px;
+}
+
 
 /*doesn't work*/
 .code-link {
@@ -164,6 +243,7 @@ footer {
 .svg1 {
     width: 20px;
 }
+
 .svg2 {
     width: 25px;
     height: 25px;
@@ -176,9 +256,3 @@ footer {
     width: 25px;
     height: 25px;
 }
-
-
-{
-
-}
-
