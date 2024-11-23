@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jca {
+    justify-content: space-around;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.m-3 {
+    margin: 1rem;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.vstack {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo {
+    border: 1px solid black;
+    padding: 15px 25px;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 15px 20px;
+    margin-left: 100px;
+}
+
+.section1 {
+background-color: blueviolet;
+}
+
+.container1, .container2 {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container2 {
+    margin-left: 25px;
+}
+
+img {
+    padding: 25px 0;
+    width: 300px;
+    height: auto;
+}
+
+.text-wrap1 {
+    display: inline-block;
+    color: white;
+    border: none;
+    background-color: darkslategray;
+    padding: 10px;
+}
+
+.text-wrap2 {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.orange-button {
+    color: white;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.section2 {
+    text-align: center;
+    margin: 70px auto;
+}
+
+.stats {
+    margin: 15px auto;
+}
+
+.stat-item {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+/*doesn't work*/
+.code-link {
+    margin-top: 65px;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.container3 {
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    gap: 100px;
+}
+
+.graytext {
+    color: gray;
+}
+
+.bg-color {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+.container .col {
+    flex-direction: column;
+}
+
+.svg1 {
+    width: 20px;
+}
+.svg2 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.svg3 {
+    width: 25px;
+    height: 25px;
+}
+
+
+{
+
+}
+
